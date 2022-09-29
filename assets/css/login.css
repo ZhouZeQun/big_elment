@@ -1,0 +1,36 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.login_box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+}
+.title {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.links {
+    text-align: right;
+    font-size: 12px;
+}
+.layui-form {
+    padding: 30px;
+}
+.reg_wrap {
+    display: none;
+}
+
